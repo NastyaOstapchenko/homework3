@@ -12,9 +12,23 @@
 }
 
 body{
-  background-color: #0c74a0;
+  /*background-color: #0c74a0;*/
+  background: #0c739f linear-gradient( to bottom,
+    #128aa7 ,  #128aa7 30px,
+    #5ef0ff 30px, #5ef0ff 31px,
+    #10cde1 31px, #fff 175px,
+    #40c6d3 175px, #0c739f 1020px);
+    background-repeat: no-repeat;
 }
 
+a {
+  text-decoration: none;
+}
+
+span {
+  color: white;
+  position: absolute;
+}
 
 .logo {
   float: left;
@@ -53,6 +67,16 @@ body{
 
 
 /*================NAVIGATION============================*/
+.menu {
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.5);
+  border-bottom: solid black 2px;
+}
+
+.sub-menu {
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.5);
+  border-top: solid black 1px;
+}
+
 
 .navigation {
   background: #333333;
@@ -101,16 +125,16 @@ body{
 /*sub menu*/
 
 
-.sab-menu {
+.sub-menu {
     display: none;
     position: absolute;
   }
 
-.sab-menu li {
+.sub-menu li {
   display: block;
 }
 
-.show-menu:hover .sab-menu {
+.show-menu:hover .sub-menu {
       display: block;
 }
 
@@ -118,21 +142,29 @@ body{
 
 
 
-
-
-
-
-
+.content {
+  width: 100%;
+  overflow: hidden;
+}
 
 .information {
-  float: left;
   border: solid #c7cacf 1px;
   background-color: #edeef0;
   color: #424c43;
-  width: 18%;
   font-family: Tahoma;
   position: center;
-  height: 525px;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  width: 25%;
+  float: left;
+}
+
+.empty {
+  width: 50%;
+  float: left;
+  background: #FFFFFF;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
 }
 
 .news {
@@ -140,13 +172,15 @@ body{
   border: solid #c7cacf 1px;
   background-color: #edeef0;
   color: #424c43;
-  width: 23%;
+  width: 25%;
   font-family: Tahoma;
   height: 525px;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
 }
 
 
-p {
+.content p {
   font-size: 14px;
   text-align: center;
   color: #333333;
@@ -166,4 +200,5 @@ h2 {
   color: white;
   font-size: 13px;
   font-family: Tahoma;
+  text-align: center;
 }
