@@ -25,10 +25,12 @@ a {
   text-decoration: none;
 }
 
+
 span {
   visibility: hidden;
   position: absolute;
 }
+
 
 .logo {
   float: left;
@@ -62,7 +64,6 @@ span {
   float: left;
   margin: 9px;
 }
-
 
 
 
@@ -139,6 +140,9 @@ span {
 }
 
 
+/*.travelling show-menu li:after {
+  content: "\25bc";
+}*/
 
 
 
@@ -155,8 +159,10 @@ span {
   position: center;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
-  width: 25%;
+  width: 20%;
   float: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .empty {
@@ -184,8 +190,8 @@ span {
   font-size: 14px;
   text-align: center;
   color: #333333;
-  line-height: 14px;
-  padding: 5px;
+  line-height: 25px;
+  /*padding: 5px;*/
 }
 
 
@@ -201,4 +207,6 @@ h2 {
   font-size: 13px;
   font-family: Tahoma;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
